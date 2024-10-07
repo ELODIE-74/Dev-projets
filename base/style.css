@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+  font-family: "Playwrite HR", cursive;
+  font-optical-sizing: auto;
+}
+body {
+  background-image: url(../images/backgroundportfolio.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*Bannière*/
+.header-content {
+  display: flex;
+  justify-content: space-between; /* Espace entre le logo et le menu */
+  align-items: center; /* Centre verticalement les éléments */
+  height: 100px;
+  padding: 0 20px; /* Ajoute un peu de padding si nécessaire */
+}
+
+.logo img {
+  max-height: 80px; /* Ajuste la hauteur du logo pour qu'il s'intègre bien */
+}
+
+.navbar {
+  display: flex; /* Assure que le menu s'affiche en ligne */
+}
+
+.menu {
+  display: flex; /* Affiche les éléments de la liste en ligne */
+  list-style: none; /* Supprime les puces de la liste */
+  padding: 0; /* Supprime le padding par défaut */
+  margin: 0; /* Supprime la marge par défaut */
+}
+
+.menu li {
+  margin-left: 20px; /* Espace entre les éléments du menu */
+}
+
+.menu a {
+  text-decoration: none; /* Supprime le soulignement des liens */
+  color: white; /* Couleur du texte du menu (à ajuster selon ton design) */
+  transition: transform 0.3s ease, color 0.3s ease; /* Ajoute une transition pour les effets */
+  font-size: 18px;
+}
+
+.menu a:hover {
+  color: #6cb2f3; /* Couleur bleu pastel au survol */
+  transform: scale(1.1); /* Grossit légèrement l'élément au survol */
+}
