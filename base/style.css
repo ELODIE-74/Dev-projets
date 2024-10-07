@@ -47,5 +47,60 @@ body {
 
 .menu a:hover {
   color: #6cb2f3; /* Couleur bleu pastel au survol */
-  transform: scale(1.1); /* Grossit légèrement l'élément au survol */
+  transform: scale(1.3); /* Grossit légèrement l'élément au survol */
+}
+/* Styles de base pour le menu hamburger */
+.hamburger {
+  display: none; /* Masque le bouton par défaut */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger span {
+  height: 4px;
+  width: 25px;
+  background: white; /* Couleur des barres */
+  margin: 3px 0; /* Espace entre les barres */
+  transition: all 0.3s ease;
+}
+
+/* Styles pour les écrans petits */
+@media (max-width: 768px) {
+  .navbar {
+    position: relative; /* Position pour le menu hamburger */
+  }
+
+  .menu {
+    display: none; /* Masque le menu par défaut */
+    flex-direction: column; /* Affiche les éléments en colonne */
+    position: absolute; /* Position absolue pour le menu */
+    top: 100%; /* Place le menu sous la barre de navigation */
+    left: 0;
+    width: 100%; /* Prend toute la largeur */
+    background: rgba(0, 0, 0, 0.8); /* Fond semi-transparent */
+  }
+
+  .menu li {
+    margin: 10px 0; /* Espace entre les éléments du menu */
+  }
+
+  .hamburger {
+    display: flex; /* Affiche le bouton hamburger */
+  }
+
+  /* Animations du menu hamburger */
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .hamburger.active span:nth-child(2) {
+    opacity: 0; /* Cache la barre du milieu */
+  }
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+}
+
+/* Styles pour l'affichage du menu au clic */
+.menu.active {
+  display: flex; /* Affiche le menu */
 }
