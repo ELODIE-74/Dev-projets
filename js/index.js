@@ -21,11 +21,12 @@ document.addEventListener("DOMContentLoaded", function () {
       description:
         "Création de la page d'accueil d'une agence de voyage avec HTML et CSS",
       categorie: "base et responsive",
+      style: "color: white; font-weight: bold;", // Exemple de style
     },
     {
       id: 2,
       nom: "Projet Ohmyfood",
-      chemin: "images/ohmyfood_1.png",
+      chemin: "../images/ohmyfood_1.png",
       chemingithub: "https://github.com/ELODIE-74/ohmyfood.git",
       description:
         "Améliorer l'interface d'un site mobile avec des animations CSS(Sass)",
@@ -34,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       id: 3,
       nom: "Projet Print it!",
-      chemin: "images/printit.png",
+      chemin: "../images/printit.png",
       chemingithub: "https://github.com/ELODIE-74/Print-it-JS.git",
       description: "Premier pas sur le langage javascript",
       categorie: "javascript",
@@ -42,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       id: 4,
       nom: "Projet Sophie Bluel, architecte d'intérieur",
-      chemin: "images/backgroundportfolio.webp",
+      chemin: "../images/backgroundportfolio.webp",
       chemingithub:
         "https://github.com/ELODIE-74/Portfolio-architecte-sophie-bluel.git",
       description: "Créer une page web dynamique avec Javascript",
@@ -51,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       id: 5,
       nom: "Projet Qwenta",
-      chemin: "images/qwenta.png",
+      chemin: "../images/qwenta.png",
       chemingithub: "https://github.com/ELODIE-74/Projet7QwentaMenuMaker.git",
       description: "Planifier le développement du site de votre client",
       categorie: "developpement web",
@@ -59,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       id: 6,
       nom: "Projet KASA",
-      chemin: "images/kasa.png",
+      chemin: "../images/kasa.png",
       chemingithub: "https://github.com/ELODIE-74/KASA.git",
       description:
         "Créer une application web de location immobilière avec React",
@@ -68,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       id: 7,
       nom: "Projet Nina Carducci",
-      chemin: "images/ninacarducci.png",
+      chemin: "../images/ninacarducci.png",
       chemingithub: "https://github.com/ELODIE-74/ninacarducci.git",
       description: "Optimiser le référencement d'un site de photographe",
       categorie: "developpement web",
@@ -76,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       id: 8,
       nom: "Projet 724Events",
-      chemin: "images/724_events_1.png",
+      chemin: "../images/724_events_1.png",
       chemingithub:
         "https://github.com/ELODIE-74/Debuggez-une-application-React.JS.git",
       description: "Débugger le site d'une agence d'évènementiel",
@@ -85,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       id: 9,
       nom: "Projet ArgentBank",
-      chemin: "images/edit-username.png",
+      chemin: "../images/edit-username.png",
       chemingithub: "https://github.com/ELODIE-74/ArgentBank-website.git",
       description:
         "Implémentez le front-end d'une application bancaire avec React",
@@ -94,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       id: 10,
       nom: "Projet Portfolio",
-      chemin: "images/portfolioprojet.png",
+      chemin: "../images/portfolioprojet.png",
       chemingithub: "https://github.com/ELODIE-74/dev-p12.git",
       description: "Créer et publier votre portfolio de développeur",
       categorie: "base et responsive",
