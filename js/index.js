@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const data = [
     {
       id: 1,
-      nom: "Projet Booki",
+      nom: "Booki",
       chemin: "../images/Booki_1.png",
       chemingithub: "https://github.com/ELODIE-74/booki-starter-code.git",
       description:
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 2,
-      nom: "Projet Ohmyfood",
+      nom: "Ohmyfood",
       chemin: "../images/ohmyfood_1.png",
       chemingithub: "https://github.com/ELODIE-74/ohmyfood.git",
       description:
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 3,
-      nom: "Projet Print it!",
+      nom: "Print it!",
       chemin: "../images/printit.png",
       chemingithub: "https://github.com/ELODIE-74/Print-it-JS.git",
       description: "Premier pas sur le langage javascript",
@@ -42,8 +42,8 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 4,
-      nom: "Projet Sophie Bluel, architecte d'intérieur",
-      chemin: "../images/backgroundportfolio.webp",
+      nom: "Sophie Bluel",
+      chemin: "../images/sophie-bluel.png",
       chemingithub:
         "https://github.com/ELODIE-74/Portfolio-architecte-sophie-bluel.git",
       description: "Créer une page web dynamique avec Javascript",
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 5,
-      nom: "Projet Qwenta",
+      nom: "Qwenta",
       chemin: "../images/qwenta.png",
       chemingithub: "https://github.com/ELODIE-74/Projet7QwentaMenuMaker.git",
       description: "Planifier le développement du site de votre client",
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 6,
-      nom: "Projet KASA",
+      nom: "KASA",
       chemin: "../images/kasa.png",
       chemingithub: "https://github.com/ELODIE-74/KASA.git",
       description:
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 7,
-      nom: "Projet Nina Carducci",
+      nom: "Nina Carducci",
       chemin: "../images/ninacarducci.png",
       chemingithub: "https://github.com/ELODIE-74/ninacarducci.git",
       description: "Optimiser le référencement d'un site de photographe",
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 8,
-      nom: "Projet 724Events",
+      nom: "724Events",
       chemin: "../images/724_events_1.png",
       chemingithub:
         "https://github.com/ELODIE-74/Debuggez-une-application-React.JS.git",
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 9,
-      nom: "Projet ArgentBank",
+      nom: "ArgentBank",
       chemin: "../images/edit-username.png",
       chemingithub: "https://github.com/ELODIE-74/ArgentBank-website.git",
       description:
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 10,
-      nom: "Projet Portfolio",
+      nom: "Portfolio",
       chemin: "../images/portfolioprojet.png",
       chemingithub: "https://github.com/ELODIE-74/dev-p12.git",
       description: "Créer et publier votre portfolio de développeur",

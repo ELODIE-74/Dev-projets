@@ -169,7 +169,7 @@ h2,
 /* Style pour les titres */
 .image-card h3 {
   font-size: 1.2em;
-  color: #333;
+  color: #ff7f00;
 }
 
 /* Style pour les liens */
@@ -177,7 +177,7 @@ h2,
   display: inline-block;
   margin-top: 10px;
   padding: 5px 10px;
-  background-color: #007bff; /* Couleur de fond */
+  background-color: black; /* Couleur de fond */
   color: white; /* Couleur du texte */
   text-decoration: none; /* Pas de soulignement */
   border-radius: 5px; /* Coins arrondis */
@@ -186,7 +186,7 @@ h2,
 
 /* Changer la couleur au survol */
 .image-card a:hover {
-  background-color: #0056b3; /* Couleur au survol */
+  background-color: #ff7f00; /* Couleur au survol */
 }
 h2 {
   color: white;
