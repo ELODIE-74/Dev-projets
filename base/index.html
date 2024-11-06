@@ -40,7 +40,7 @@
           <ul class="menu" id="menu">
             <li><a href="#a-propos">A Propos</a></li>
             <li><a href="#galerie">Galerie</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contactModal">Contact</a></li>
             <li><a href="#liens">Liens</a></li>
           </ul>
         </nav>
@@ -56,8 +56,8 @@
           réalisation de 12 semi-projets professionnalisant.
         </p>
       </div>
-    </main>
-    <!---
+
+      <!---
     <header>
       <div class="header-content">
         <div class="logo">
@@ -73,18 +73,78 @@
         </nav>
       </div>
     </header>-->
-    <!--Galerie-->
+      <!--Galerie-->
 
-    <section id="galerie" class="galeriefiltrer">
-      <h2>La galerie des projets</h2>
-      <div id="Filtres">
-        <div data-category="tous">Tous</div>
-        <div data-category="base et responsive">Base et Responsive</div>
-        <div data-category="javascript">Javascript</div>
-        <div data-category="react">React</div>
-        <div data-category="developpement web">Développement web</div>
+      <section id="galerie" class="galeriefiltrer">
+        <h2>La galerie des projets</h2>
+        <div id="Filtres">
+          <div data-category="tous">Tous</div>
+          <div data-category="base et responsive">Base et Responsive</div>
+          <div data-category="javascript">Javascript</div>
+          <div data-category="react">React</div>
+          <div data-category="developpement web">Développement web</div>
+        </div>
+        <div class="image-container" id="images"></div>
+      </section>
+
+      <!--Formulaire de contact-->
+      <div id="contactModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-left">
+            <!--Décor ou image ici-->
+            <img src="../images/kasa.png" alt="Décor" style="width: 100%" />
+          </div>
+          <div class="modal-right">
+            <h2>Formulaire de contact</h2>
+            tact
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Nom :</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Entrez votre nom"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="company">Entreprise</label>
+                <input
+                  type="text"
+                  id="company"
+                  name="company"
+                  placeholder="Entrez le nom de votre entreprise"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="Message"
+                  rows="4"
+                  placeholder="Entrez votre message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Envoyer</button>
+            </form>
+          </div>
+        </div>
+        <span class="close">&times;</span>
       </div>
-      <div class="image-container" id="images"></div>
-    </section>
+      <p class="confirmation-message" style="display: none"></p>
+      <!--Message de confirmation en dehors de la modale-->
+    </main>
+    <footer>
+      <div id="liens" class="links">
+        <h2>Liens</h2>
+        <a href="mailto:jance.elodie.pro@gmail.com" class="link">
+          <i class="fas fa-enveloppe">Email</i>
+        </a>
+        <div class="copyright">&copy; 2024 Tous droits réservés</div>
+      </div>
+    </footer>
   </body>
 </html>
