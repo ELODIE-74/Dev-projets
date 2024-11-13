@@ -143,3 +143,31 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 console.log("Données :", data);
+
+//formulaire de contact
+// ouverture de la modale
+
+document.getElementById("openModal").addEventListener("click", function () {
+  document.getElementById("contactModal").style.display = "block";
+  document.querySelector(".confirmation-message").style.display = "none"; //cachez le message de départ
+});
+
+//fermer la modale
+document.querySelector(".close").addEventListener("click", function () {
+  document.getElementById("contactModal").style.display = "none";
+});
+
+//gérer la soumission du formulaire de contact
+document
+  .querySelector(".contact-form")
+  .addEventListener("submit", function (e) {
+    e.preventDefault();
+    document.querySelector(".confirmation-message").innerText =
+      "Message envoyé avec succès !"; //afficher le message
+    document.getElementById("contactModal").style.display = "none"; //fermer la modale du formulaire de contact
+  });
+
+// disparition du message après 5 secondes
+setTimeout(function () {
+  document.querySelector(".confirmation-message").style.display = "none";
+}, 5000); // 5 secondes
