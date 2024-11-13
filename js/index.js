@@ -163,7 +163,8 @@ document
   .addEventListener("submit", function (e) {
     e.preventDefault();
     document.querySelector(".confirmation-message").innerText =
-      "Message envoyé avec succès !"; //afficher le message
+      "Message envoyé avec succès !";
+    document.querySelector(".confirmation-message").style.display = "block"; //afficher le message
     document.getElementById("contactModal").style.display = "none"; //fermer la modale du formulaire de contact
   });
 
